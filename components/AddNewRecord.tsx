@@ -7,7 +7,7 @@ import { suggestCategory } from '@/app/actions/suggestCategory';
 
 const AddRecord = () => {
   const formRef = useRef<HTMLFormElement>(null);
-  const [amount, setAmount] = useState(50);
+  const [amount, setAmount] = useState<string>('');
   const [alertMessage, setAlertMessage] = useState<string | null>(null);
   const [alertType, setAlertType] = useState<'success' | 'error' | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -21,11 +21,12 @@ const AddRecord = () => {
   const clientAction = async (formData: FormData) => {
     setIsLoading(true);
     setAlertMessage(null);
+    const numericValue = parseFloat(amount) || 0;
     formData.set(
       'amount',
       i18n.language === 'ru'
-        ? (amount / rate).toFixed(2).toString()
-        : amount.toString(),
+        ? (numericValue / rate).toFixed(2).toString()
+        : numericValue.toString(),
     );
     formData.set('category', category);
 
@@ -38,7 +39,7 @@ const AddRecord = () => {
       setAlertMessage('Expense record added successfully!');
       setAlertType('success');
       formRef.current?.reset();
-      setAmount(0);
+      setAmount('');
       setCategory('');
       setDescription('');
     }
@@ -100,7 +101,7 @@ const AddRecord = () => {
   useEffect(() => {
     setCategory('');
     setDescription('');
-    setAmount(0);
+    setAmount('');
     setAlertMessage(null);
     setAlertType(null);
     formRef.current?.reset();
@@ -274,7 +275,7 @@ const AddRecord = () => {
                 max="1000"
                 step="0.01"
                 value={amount}
-                onChange={(e) => setAmount(parseFloat(e.target.value) || 0)}
+                onChange={(e) => setAmount(e.target.value)}
                 className="w-full pl-7 pr-3 py-2.5 bg-white/70 dark:bg-gray-800/70 border-2 border-gray-200/80 dark:border-gray-600/80 rounded-xl focus:ring-2 focus:ring-cyan-500/30 focus:bg-white dark:focus:bg-gray-700/90 focus:border-cyan-400 dark:focus:border-cyan-400 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 text-sm font-semibold shadow-sm hover:shadow-md transition-all duration-200"
                 placeholder="0.00"
                 required

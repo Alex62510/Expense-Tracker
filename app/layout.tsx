@@ -8,7 +8,7 @@ const geistSans = Geist({variable: '--font-geist-sans', subsets: ['latin']});
 const geistMono = Geist_Mono({variable: '--font-geist-mono', subsets: ['latin']});
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://expense-tracker-ten-wine-70.vercel.app/"), // замени на свой домен
+    metadataBase: new URL("https://expense-tracker-ten-wine-70.vercel.app/"),
     title: "Трекер расходов — учет и аналитика",
     description:
         "Простой и удобный трекер расходов для учета ежемесячных трат и анализа бюджета.",
