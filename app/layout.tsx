@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "https://expense-tracker-ten-wine-70.vercel.app/",
         images: [
             {
-                url: "/open-graph.png",
+                url: "/open-graph.png?v=2",
                 width: 1200,
                 height: 630,
                 alt: "Трекер расходов",
