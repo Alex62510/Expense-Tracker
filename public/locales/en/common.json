@@ -1,0 +1,214 @@
+{
+  "home": "Home",
+  "about": "About",
+  "contact": "Contact",
+  "signIn": "Sign In",
+  "expenseTracker": "Expense Tracker",
+  "allRightsReserved": "All Rights Reserved",
+  "madeBy": "Made by",
+  "footerDescription": "Intelligent financial management powered by AI. Track your expenses, manage your budget, and gain insights into your spending patterns.",
+  "quickLinks": "Quick Links",
+  "features": "Features",
+  "aiInsights": "AI-Powered Insights",
+  "smartCategorization": "Smart Categorization",
+  "analyticsDashboard": "Analytics Dashboard",
+  "welcomeBack": "Welcome Back, {{name}}!",
+  "overviewMessage": "Here's a quick overview of your recent expense activity. Track your spending, analyze patterns, and manage your budget efficiently!",
+  "joined": "Joined",
+  "lastActive": "Last Active",
+  "today": "Today",
+  "form": {
+    "title": "Add New Expense",
+    "subtitle": "Track your spending with AI assistance",
+    "description": "Expense Description",
+    "descriptionPlaceholder": "Coffee, groceries, gas...",
+    "aiButton": "AI Category Suggestion",
+    "date": "Expense Date",
+    "category": "Category",
+    "aiHint": "Use the ✨ button above for AI suggestions",
+    "selectCategory": "Select category...",
+    "amount": "Amount",
+    "amountHint": "Enter amount between $0 and $1,000",
+    "processing": "Processing...",
+    "submit": "Add Expense"
+  },
+  "categories": {
+    "food": "Food & Dining",
+    "transportation": "Transportation",
+    "shopping": "Shopping",
+    "entertainment": "Entertainment",
+    "bills": "Bills & Utilities",
+    "healthcare": "Healthcare",
+    "other": "Other"
+  },
+  "messages": {
+    "success": "Expense record added successfully!",
+    "aiSuggested": "AI suggested category",
+    "aiAnalyzing": "AI is analyzing your description..."
+  },
+  "errors": {
+    "general": "Error",
+    "noDescription": "Please enter a description first"
+  },
+  "chart": {
+    "title": "Expense Chart",
+    "subtitle": "Visual representation of your spending",
+    "errorTitle": "Error loading chart data",
+    "noDataTitle": "No Data to Display",
+    "noDataSubtitle": "Start tracking your expenses to see your spending patterns visualized in this chart.",
+    "date": "Date",
+    "amount": "Amount ($)",
+    "category": "Category",
+    "categories": "Сategories",
+    "total": "Total"
+
+  },
+  "expenseStats": {
+    "title": "Expense Statistics",
+    "subtitle": "Your spending insights and ranges",
+    "averageDailySpending": "Average Daily Spending",
+    "basedOnDays": "Based on {{count}} days with expenses",
+    "highest": "Highest",
+    "lowest": "Lowest",
+    "noData": "No data",
+    "errorTitle": "Unable to load expense statistics",
+    "errorMessage": "Please try again later"
+  },
+  "aiUnavailableTitle": "AI Temporarily Unavailable",
+  "aiUnavailableMessage": "We're working to restore AI insights. Please check back soon.",
+  "tryLater": "Try again later",
+  "aiAnswerError": "Sorry, I was unable to generate a detailed answer. Please try again.",
+  "loading": "Loading...",
+  "justNow": "Just now",
+  "minutesAgo": "m ago",
+  "hoursAgo": "h ago",
+  "analyzingSpending": "Analyzing your spending patterns",
+  "analyzing": "Analyzing...",
+  "aiFinancialAnalysis": "AI financial analysis",
+  "preliminary": "Preliminary",
+  "aiAnswer": "AI Answer",
+  "poweredByAI": "Powered by AI analysis",
+  "refresh": "Refresh",
+  "refreshInsights": "Refresh Insights →",
+  "expenseHistoryTitle": "Expense History",
+  "expenseHistorySubtitle": "Your spending timeline",
+  "errorLoadingExpenseHistory": "Error loading expense history",
+  "unknownError": "An unknown error occurred",
+  "contacts": {
+    "getInTouch": "Get in Touch",
+    "contact": "Contact",
+    "heroDescription": "Have questions about AI-powered expense tracking or need help? We're here to assist you with intelligent financial management.",
+    "sendEmail": "Send us an Email",
+    "callUs": "Call Us",
+    "contactInfo": "Contact Information",
+    "multipleWaysTo": "Multiple Ways to",
+    "connect": "Connect",
+    "contactDescription": "Choose the most convenient way to reach out to our ExpenseTracker AI support team."
+  },
+  "aboutPage": {
+    "heroTaglineLong": "Powered by AI Technology",
+    "heroTaglineShort": "AI Technology",
+    "title": "About",
+    "description": "Your intelligent companion for tracking expenses and managing your finances with cutting-edge AI-powered insights.",
+    "startJourney": "Start Your Journey",
+    "learnMore": "Learn More",
+    "missionTitle": "Our Mission",
+    "missionSubtitlePart1": "Transforming Financial Management with",
+    "missionSubtitlePart2": "AI",
+    "missionDescription": "At ExpenseTracker AI, we leverage cutting-edge artificial intelligence to revolutionize how individuals achieve financial wellness. Our AI analyzes your spending patterns to deliver personalized recommendations and actionable insights that lead to better budgeting and financial freedom.",
+    "activeUsers": "Active Users",
+    "moneyTracked": "Money Tracked",
+    "satisfactionRate": "Satisfaction Rate",
+    "features": "Features",
+    "featuresTitle": "Why Choose",
+    "featuresDescription": "Discover the powerful features that make our AI-driven platform the smart choice for modern financial management.",
+    "storyTitle": "Our Story",
+    "storySubtitle": "Built for the Future",
+    "storyParagraph1": "ExpenseTracker AI was born from the vision of creating truly intelligent financial management tools. Our team of financial experts, data scientists, and technologists came together to solve a critical problem: making personal finance management smarter, more intuitive, and more effective.",
+    "storyParagraph2": "Since our launch, we've helped thousands of users achieve better budgeting and improve their overall financial health through the power of artificial intelligence. Every feature is designed with user experience and financial wellness in mind.",
+    "founded": "Founded in 2024",
+    "aiFirst": "AI-First Approach",
+    "globalImpact": "Global Impact",
+    "userCentric": "User-Centric Design",
+    "ctaTagline": "Ready to Transform Your Finances?",
+    "ctaTitlePart1": "Take Control of Your",
+    "ctaTitlePart2": "Financial Future",
+    "ctaDescription": "Join thousands of users who have already transformed their financial habits with ExpenseTracker AI. Start your journey towards smarter budgeting today.",
+    "ctaButtonPrimary": "Get Started Free",
+    "ctaButtonSecondary": "Contact Us"
+  },
+  "featuresAbout": {
+    "aiInsights": "AI-Powered Insights",
+    "aiInsightsDescription": "Get intelligent analysis of your spending patterns with personalized AI recommendations and automated category suggestions that learn from your behavior.",
+    "smartCategorization": "Smart Categorization",
+    "smartCategorizationDescription": "Let our AI automatically categorize your expenses with 99% accuracy and provide tailored recommendations to enhance your budget management effortlessly.",
+    "intelligentDashboard": "Intelligent Dashboard",
+    "intelligentDashboardDescription": "Experience a modern, AI-enhanced interface with real-time insights, interactive financial analytics, and beautiful visualizations that make sense of your data."
+  },
+  "guestPage": {
+    "heroTaglineLong": "AI-Powered Financial Management",
+    "heroTaglineShort": "AI Financial Management",
+    "heroTitle": "Welcome to",
+    "heroProduct": "ExpenseTracker",
+    "heroDescription": "Track your expenses, manage your budget, and get AI-powered insights to take control of your finances with intelligent automation.",
+    "getStarted": "Get Started Free",
+    "learnMore": "Learn More",
+    "features": [
+      {
+        "icon": "🤖",
+        "title": "AI Insights",
+        "desc": "Smart analysis of your spending patterns"
+      },
+      {
+        "icon": "✨",
+        "title": "Auto Categories",
+        "desc": "Intelligent expense categorization"
+      },
+      {
+        "icon": "📊",
+        "title": "Smart Dashboard",
+        "desc": "Beautiful, intuitive financial overview"
+      }
+    ],
+    "faqTitle": "FAQ",
+    "faqSection": "Frequently Asked Questions",
+    "faqDescription": "Everything you need to know about ExpenseTracker and how it can transform your financial management.",
+    "faqs": [
+      {
+        "icon": "?",
+        "title": "What is ExpenseTracker?",
+        "desc": "ExpenseTracker AI is an intelligent financial management tool that uses artificial intelligence to help you monitor your spending patterns, get smart category suggestions, and receive personalized insights to improve your financial health."
+      },
+      {
+        "icon": "🤖",
+        "title": "How does the AI work?",
+        "desc": "Our AI analyzes your spending data to automatically categorize expenses, detect patterns, and provide personalized recommendations. You can also ask the AI questions about your spending habits and get instant, intelligent responses."
+      },
+      {
+        "icon": "💎",
+        "title": "Is ExpenseTracker free?",
+        "desc": "Yes, ExpenseTracker offers a free plan with basic AI features including smart categorization and insights. Premium plans are available for advanced AI analytics and unlimited AI interactions."
+      }
+    ],
+    "testimonialsTitle": "Testimonials",
+    "testimonialsSection": "What Our Users Say",
+    "testimonialsDescription": "Join thousands of satisfied users who have transformed their financial habits with ExpenseTracker.",
+    "testimonials": [
+      {
+        "name": "Sarah L.",
+        "initial": "S",
+        "desc": "ExpenseTracker has completely transformed my budgeting. The AI insights are incredibly helpful and I now have full control over my finances!"
+      },
+      {
+        "name": "John D.",
+        "initial": "J",
+        "desc": "The AI-powered insights from ExpenseTracker have helped me identify and reduce unnecessary spending. The smart categorization is amazing!"
+      },
+      {
+        "name": "Emily R.",
+        "initial": "E",
+        "desc": "ExpenseTracker is so intelligent and easy to use. The AI recommendations are spot-on and have genuinely improved my financial habits!"
+      }
+    ]
+  }
+}
