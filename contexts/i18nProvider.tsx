@@ -8,8 +8,8 @@ import en from '@/public/locales/en/common.json';
 import ru from '@/public/locales/ru/common.json';
 
 export default function I18nProvider({
-  children,
-}: {
+                                       children,
+                                     }: {
   children: React.ReactNode;
 }) {
   const [ready, setReady] = useState(false);
@@ -20,8 +20,8 @@ export default function I18nProvider({
         .use(initReactI18next)
         .init({
           resources: { en: { translation: en }, ru: { translation: ru } },
-          lng: 'en',
-          fallbackLng: 'en',
+          lng: 'ru',
+          fallbackLng: 'ru',
           interpolation: { escapeValue: false },
         })
         .then(() => setReady(true));
@@ -31,6 +31,5 @@ export default function I18nProvider({
   }, []);
 
   if (!ready) return null;
-
   return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>;
 }
